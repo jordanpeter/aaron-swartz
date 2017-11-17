@@ -1,0 +1,70 @@
+body{
+  background-color: lightgrey;
+}
+
+.page{
+  margin-left: 20%;
+  margin-right: 20%;
+  height: auto;
+  background-color: lightgrey;
+}
+
+p{
+  padding: 20px;
+  color: grey;
+}
+
+h2{
+  text-align: center;
+  color: #DD5555;
+}
+
+h3{
+  text-align: center;
+  background-color: #DD5555;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 150px;
+}
+
+header, section, footer{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px darkgrey;
+}
+
+header{
+  margin: 2px;
+}
+
+section{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fa
+
+section a{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+
+
+}
+
+.fa fa-facebook-square{
+
+}
