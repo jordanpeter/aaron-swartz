@@ -1,31 +1,65 @@
 body{
-  background-color: lightgrey;
+  background-color: #F1F1F1;
 }
 
 .page{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
   height: auto;
-  background-color: lightgrey;
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  padding: 10px;
+
 }
 
 p{
   padding: 20px;
   color: grey;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+h1{
+  text-align: center;
+  color: #DB4758;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
 h2{
   text-align: center;
-  color: #DD5555;
-}
-
-h3{
-  text-align: center;
-  background-color: #DD5555;
-  color: white;
+  color: grey;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+footer h2{
+  padding-top: 20px;
+}
+
+.bouton{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  font-family: Arial,sans-serif;
+     font-size: 1.6em;
+     width: 200px;
+     height: 25px;
+     padding-top: 7px; /*permet le centrage vertical*/
+     text-align: center;
+     color: white;
+     background: #DB4758;
+     text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+     border-radius: 8px;
+    text-decoration: none;
+}
+.lien{
+text-decoration: none;
+color: white;
 }
 
 img{
@@ -39,7 +73,7 @@ img{
 header, section, footer{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px darkgrey;
+    box-shadow: 0px 1px 1px 1px lightgrey;
 }
 
 header{
@@ -50,25 +84,66 @@ section{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 50px;
+
+  margin-top: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
-.fa
+
 
 section a{
   display: inline;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
+}
+
+figcaption{
+    color:#EAEAEA;
 }
 
 footer {
 
+}
+
+.contenu_footer{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
 
 }
 
+footer p{
+  grid-column: 2;
+  padding: 10px;
+}
+
 .fa-facebook, .fa-linkedin, .fa-twitter{
-  color: silver;
+  color: #CBCBCB;
+}
+
+.img_Aaron2{
+
+  border-radius: 0px;
+  grid-column: 1;
+  grid-row: 2;
+}
+.titreAaronText{
+  grid-column: 2;
+}
+.titreAaronText2{
+  grid-column: 2;
+}
+
+.img_Aaron3{
+  grid-row: 4;
+}
+
+.AaronText2{
+  grid-row: 4;
+}
+
+.titreAaronText2{
+  grid-column: 2;
 }
